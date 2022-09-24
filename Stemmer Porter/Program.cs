@@ -132,6 +132,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(Porter.TransformingWord("проснуться"));
+        Console.WriteLine(Porter.TransformingWord("проснулся"));
+        Console.WriteLine(Porter.TransformingWord("улыбнулся"));
+        Console.WriteLine(Porter.TransformingWord("подтянулся"));
     }
 }
